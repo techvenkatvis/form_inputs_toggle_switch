@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkbox, Radio, Toggle Switch </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="div_sec1">
+                <i class="fa fa-check-square-o"></i>
+                <h1>Checkbox and Radio</h1>
+            </div>
+            <div class="div_sec2">
+                <p>These are your basic <span><code>input[type="radio"]</code></span> and <span><code>input[type="checkbox"]</code></span> elements.They have a label and can contain secondary information by adding a <span><code>small</code></span> element inside the <span><code>label </code></span>.</p>
+            </div>
+            <div class="div_sec3">
+                <input type="radio" id="radio" name="radio">
+                <label for="radio">Radio button with label</label><br>
+                <input type="radio" id="radio1" name="radio">
+                <label for="radio1">Radio button with label</label>
+                <p>Radio can have additional information</p>
+            </div>
+            <div class="div_sec4">
+                <input type="checkbox" id="checkbox" name="checkbox">
+                <label for="checkbox">Checkbox with label</label><br>
+                <input type="checkbox" id="checkbox1" name="checkbox">
+                <label for="checkbox1">Checkbox with label</label>
+                <p>I am additional information regarding this field</p>
+            </div>
+        </header>
+        <main>
+            <div class="div_sec5">
+                <h2> Toggle Switch</h2>
+            </div>
+            <div class="div_sec6">
+                <p>if you want a checkbox to look like a switch, just add a <span><code>.switch</code></span> class to the checkbox input element </p>
+            </div>
+            <div class="div_sec7">
+                <div class="divition1">
+                    <div class="switch_outline1">
+                            <input type="checkbox" id="switch" checked>
+                            <label for="switch" class="toggle_switch"></label>
+                    </div>
+                <label for="switch" class="new">Checked Switch with label</label>
+            </div>
+            <div class="divition2">
+                <div class="switch_outline1">
+                    <input type="checkbox" id="switch_2" >
+                    <label for="switch_2" class="toggle_switch"></label>
+            </div>
+                <label for="switch_2" class="new">Unchecked Switch with label</label>
+            </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html> 

@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    min-height: 100vh;
+    background-color: rgb(244, 244, 226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    background-color: #fff;
+    width: 800px;
+    padding: 35px;
+    border-radius: 8px;
+    margin: 2rem;
+}
+.div_sec1 {
+    display: flex;
+}
+i.fa.fa-check-square-o {
+    font-size: 35px;
+    align-content: center;
+}
+h1 {
+    padding-left: 20px;
+}
+.div_sec2 p {
+    font-size: 22px;
+    line-height: 30px;
+}
+code {
+    background-color: #ebebeb;
+}
+.div_sec3 {
+    font-size: 20px;
+    line-height: 28px;
+}
+.div_sec3 p {
+    padding: 8px 0 0 31px;
+    margin: 0;
+}
+.div_sec4 {
+    font-size: 20px;
+    line-height: 28px;
+    padding: 30px 0;
+}
+.div_sec4 p {
+    margin: 0;
+    padding: 8px 0 0 32px;
+}
+.toggle_switch {
+    padding-left: 6px;
+}
+.div_sec6 {
+    font-size: 21px;
+}
+.div_sec7 {
+    font-size: 20px;
+}
+input#radio {
+    height: 18px;
+    width: 20px;
+    margin: 0;
+}
+input#checkbox {
+    height: 17px;
+    width: 20px;
+    margin: 0;
+}
+input#radio1 {
+    height: 18px;
+    width: 20px;
+    margin: 0;
+}
+input#checkbox1 {
+    height: 17px;
+    width: 20px;
+    margin: 0;
+}
+.divition1 {
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+.divition1 p {
+    padding-left: 15px;
+}
+.divition2 {
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+.divition2 p {
+    padding-left: 15px;
+}
+.switch_outline2 {
+    border: 1px solid #545252;
+    height: 36px;
+    width: 62px;
+    border-radius: 18px;
+}
+.end {
+    padding-left: 80px;
+    margin: 0;
+}
+input#switch, #switch_2 {
+    display: none;
+}
+.toggle_switch {
+    position: relative;
+    height: 36px;
+    width: 62px;
+    border-radius: 18px;
+    background-color: #d2d2d2;
+    cursor: pointer;
+    transition: 0.4s;
+    display: inline-block;
+}
+.toggle_switch::before {
+    position: absolute;
+    content: '';
+    background-color: #fff;
+    height: 28px;
+    width: 28px;
+    border-radius: 14px;
+    margin: 4px 0 0 -1px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+input:checked + .toggle_switch {
+    background-color: #2196F3;
+}
+input:checked + .toggle_switch::before {
+    transform: translateX(24px);
+}
+.div_sec3 label {
+    padding-left: 7px;
+}
+.div_sec4 label {
+    padding-left: 7px;
+}
+label.new {
+    padding-left: 15px;
+}
